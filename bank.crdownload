@@ -1,0 +1,10 @@
+
+greet = input('Say hello:')
+greet = greet.lower().strip()
+
+if 'hello' in greet:
+    print('$0')
+elif 'h' in greet:
+    print('$20')
+else:
+    print('$100')
